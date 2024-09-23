@@ -1,5 +1,5 @@
 a = eval(input())
-if not a: 
-    print(a)
+if a: 
+    print("NOT EMPTY")
 else:
-    print(False)
+    print("EMPTY")
