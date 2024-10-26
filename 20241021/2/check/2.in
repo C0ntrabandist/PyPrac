@@ -1,0 +1,7 @@
+:biquadrat_mb a b c x a*x*x*x*x+b*x*x+c
+biquadrat_mb 4 3 9 2
+:square x x*x
+square 12
+:sin_x_y x y sin(x*y)
+sin_x_y 1 2
+quit "Hello{}, world{}"
