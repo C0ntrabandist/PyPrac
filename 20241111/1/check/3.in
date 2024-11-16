@@ -1,0 +1,13 @@
+a, b, c = Omnibus(), Omnibus(), Omnibus()
+a.r = 2
+a.r = 'False'
+print(a.r)
+b.r = 49
+c.r = 13
+print(b.r, c.r, a.r)
+del c.r 
+print(a.r, b.r)
+del b.r
+print(a.r)
+b.r = 1001
+print(a.r, b.r)

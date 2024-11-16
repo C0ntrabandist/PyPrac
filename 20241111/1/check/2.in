@@ -1,0 +1,9 @@
+a = Omnibus()
+for i in range(66):
+    a.b = i
+print(a.b)
+del a.b
+b = Omnibus()
+b.b = 11
+print(b.b)
+print(a.b)

@@ -1,0 +1,7 @@
+a = Triangle((0, 0), (13, 4), (15, 24))
+b = Triangle((0, 0), (96, 32), (12, 10))
+print(round(abs(a), 4), round(abs(b), 4))
+print(bool(a), bool(b))
+print(a < b, b < a)
+print(a in b, b in a)
+print(a != b, b != a)
