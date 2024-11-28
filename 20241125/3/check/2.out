@@ -1,0 +1,4 @@
+a: 5, e: -, i: [1, 2], o: 1, u: 2 False
+a: 5, e: -, i: [1, 2], o: 1, u: 2, y: 10 True
+42
+Exception

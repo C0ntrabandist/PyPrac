@@ -1,0 +1,19 @@
+@objcount
+class C:
+    def __init__(self, yes=None, **kwargs):
+        print('Yahooooooooo')
+        self.yes = yes
+        self.counter = 100500
+
+    def __str__(self):
+        return f'{self.__class__.counter} string'
+
+    def __repr__(self):
+        return f'{self.__class__.counter} rep'
+
+    def __del__(self):
+        print('Yo got there, yo ways ahead')
+
+a = [str(C()) for i in range(10)]
+
+print(a[0] + a[1], a[2] + a[3], a[5], a[4] + a[1], a[5] + a[6], a[8] + a[9], a[7])

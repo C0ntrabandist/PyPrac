@@ -1,0 +1,24 @@
+wo = Vowel(a=1, i=2, o=3)
+print(wo.answer)
+
+try:
+    wo.answer = 100500
+except AttributeError:
+    print("Got'em! Do not modify answer!")
+
+try:
+    print(wo.e)
+except AttributeError:
+    print("Got'em! You do not filled that slot!")
+
+try:
+    wo.Z = -1
+except AttributeError:
+    print("Got'em! What are u trying to do with thiz zZz?")
+
+try:
+    print(wo.what)
+except AttributeError:
+    print("Got'em! Attribute does not exist")
+
+print(wo)
