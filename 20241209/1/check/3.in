@@ -1,0 +1,6 @@
+class C(metaclass=dump):
+    def display(self, a, b):
+        print("Screen", a, b)
+
+dis = C()
+dis.display(4, 15)
